@@ -93,32 +93,32 @@ body{
 
  /* PRESENTACION */
 .sliderIntro .slideIntro:nth-child(1) {
-  background-image: url("/images/book-actoral/horizontal/IMG_1.JPG");
+  background-image: url("/gaostudio/images/book-actoral/horizontal/IMG_1.JPG");
   animation-delay: -2s;
 }
 
 .sliderIntro .slideIntro:nth-child(2) {
-  background-image: url("/images/book-actoral/horizontal/IMG_2.jpg");
+  background-image: url("/gaostudio/images/book-actoral/horizontal/IMG_2.jpg");
   animation-delay: -4s;
 }
 
 .sliderIntro .slideIntro:nth-child(3) {
-  background-image: url("/images/marca-personal/IMG_9218.jpg");
+  background-image: url("/gaostudio/images/marca-personal/IMG_9218.jpg");
   animation-delay: -6s;
 }
 
 .sliderIntro .slideIntro:nth-child(4) {
-  background-image: url("/images/marca-personal/IMG_9194.jpg");
+  background-image: url("/gaostudio/images/marca-personal/IMG_9194.jpg");
   animation-delay: -8s;
 }
 
 .sliderIntro .slideIntro:nth-child(5) {
-  background-image: url("/images/perfil-profesional/IMG_3427.jpg");
+  background-image: url("/gaostudio/images/perfil-profesional/IMG_3427.jpg");
   animation-delay: -10s;
 }
 
 .sliderIntro .slideIntro:nth-child(6) {
-  background-image: url("/images/perfil-profesional/IMG_3402.jpg");
+  background-image: url("/gaostudio/images/perfil-profesional/IMG_3402.jpg");
   animation-delay: -12s;
 }
 
@@ -146,12 +146,12 @@ body{
     position: relative;
   }
   .sliderIntro .slideIntro:nth-child(1) {
-    background-image: url("/images/book-actoral/vertical/IMG_1.JPG");
+    background-image: url("/gaostudio/images/book-actoral/vertical/IMG_1.JPG");
     animation-delay: -2s;
   }
   
   .sliderIntro .slideIntro:nth-child(2) {
-    background-image: url("/images/book-actoral/vertical/IMG_2.JPG");
+    background-image: url("/gaostudio/images/book-actoral/vertical/IMG_2.JPG");
     animation-delay: -4s;
   }
 
