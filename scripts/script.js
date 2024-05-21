@@ -4,7 +4,7 @@ window.addEventListener('scroll', function() {
         $(".navbar").removeClass("navbar-dark");
         $(".navbar").addClass("navbar-light");
         $(".nav").css('background-color', '#ffffff');
-        $(".imgnav").attr("src","/GaoStudio/images/logos/logo-negro.png");
+        $(".imgnav").attr("src","/images/logos/logo-negro.png");
 
         var i, $tBotonMenu = $('.botonmenu');
         for (i=0; i<$tBotonMenu.length; i++)    {
@@ -23,7 +23,7 @@ window.addEventListener('scroll', function() {
         $(".navbar").removeClass("navbar-light");
         $(".navbar").addClass("navbar-dark");
         $(".nav").css('background-color', 'transparent');
-        $(".imgnav").attr("src","/GaoStudio/images/logos/logo-blanco.png");
+        $(".imgnav").attr("src","/images/logos/logo-blanco.png");
 
         var i, $tBotonMenu = $('.botonmenu');
         for (i=0; i<$tBotonMenu.length; i++)    {
