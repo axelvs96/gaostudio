@@ -11,21 +11,28 @@
         <meta name="geo.placename" content="Lima">
         <link type="text/css" rel="stylesheet" href="/gaostudio/styles/style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/de9679b211.js" crossorigin="anonymous"></script>
     </head>
     <body class="p-0" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
         <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-dark p-0 fixed-top">
             <div class="container-fluid p-0">
-                <a class="navbar-brand p-0" href="#intro"><img class="imgnav" src="/gaostudio/images/logos/logo-blanco.png" alt=""  height="50" class="d-inline-block align-text-top p-0"/></a>
+                <a class="navbar-brand p-0" href="#intro"><img class="imgnav" src="/gaostudio/images/logos/logo-blanco-sf.png" alt=""  height="50" class="d-inline-block align-text-top p-0"/></a>
                 <button class="navbar-toggler botonmenu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse d-lg-flex" id="navbarSupportedContent">
                     <ul class="nav nav-pills">
                         <li class="nav-item">
+                            <a class="nav-link enlaces" href="#sobremi">Sobre mí</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link enlaces" href="#sesiones">Sesiones</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link enlaces" href="#contact">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link enlaces" href="#prices">Precios</a>
                         </li>
                     </ul>
                 </div>
@@ -43,19 +50,251 @@
                             <div class="slideIntro"></div>
                             <div class="slideIntro"></div>
                             <div class="slideIntro"></div>
+                            <div class="slideIntro"></div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container-fluid" id="sesiones">
+            <div class="container-fluid" id="sobremi">
                 <div class="row">
+                    <div class="col text-center">
+                        <img class="fotogaostudio" src="/gaostudio/images/gaostudio/gaostudiocolor.jpg" alt="GaoStudio">
+                    </div>
+                    <div class="col texto-presentacion">
+                        <h1 class="presentacion text-center">Hola!
+                        </h1>
+                        <h6 class="presentacion2">
+                            
+                        </h6>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" id="sesiones">
+                <div class="row mt-5">
                     <div class="col"></div>
+                    <div class="col text-center"><h2>Sesiones</h2></div>
                     <div class="col"></div>
-                    <div class="col"></div>
+                </div>
+                <div class="row mt-5 filassesiones">
+                    <div class="col">
+                        <!-- NAVIDAD -->
+                        <div class="card" style="width: 18rem;">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+                                <div class="carousel-inner navidad">
+                                    <div class="carousel-item active">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Navidad</h5>
+                                <p class="card-text">Llévate los mejores recuerdos de navidades. Cada año con un escenario nuevo.<br>¿Cuál será el de este año?</p>
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <!-- CUMPLEAÑOS -->
+                        <div class="card" style="width: 18rem;">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+                                <div class="carousel-inner cumple">
+                                    <div class="carousel-item active">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Cumpleaños</h5>
+                                <p class="card-text">Un regalo (o autoregalo) muy original para alguien que cumple años. ¿Te atreves?</p>
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                         <!-- ACTORAL -->
+                         <div class="card" style="width: 18rem;">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+                                <div class="carousel-inner actoral">
+                                    <div class="carousel-item active">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Actores</h5>
+                                <p class="card-text">¡Muéstrale tu arte al mundo!</p>
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5 filassesiones">
+                    <div class="col">
+                        <!-- PERFIL PROFESIONAL -->
+                        <div class="card" style="width: 18rem;">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+                                <div class="carousel-inner profesional">
+                                    <div class="carousel-item active">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Perfil profesional</h5>
+                                <p class="card-text">Crea un mejor impacto cuando visiten tus redes profesionales</p>
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <!-- PERSONAL -->
+                        <div class="card" style="width: 18rem;">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+                                <div class="carousel-inner personal">
+                                    <div class="carousel-item active">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Marca personal</h5>
+                                <p class="card-text">Si tienes un negocio ¿qué mejor manera que tener las mejores fotos para atraer clientes?</p>
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                         <!-- EMPRESA -->
+                        <div class="card" style="width: 18rem;">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+                                <div class="carousel-inner actoral">
+                                    <div class="carousel-item active">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Actores</h5>
+                                <p class="card-text">¡Muéstrale tu arte al mundo!</p>
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="container-fluid" id="contact">
-                <div class="row">
+                <div class="row mt-5">
+                    <div class="col"></div>
+                    <div class="col text-center"><h2>Contacto</h2></div>
+                    <div class="col"></div>
+                </div>
+                <div class="row mt-5 links">
+                    <div class="col linksContacto">
+                        <div class="text-center">
+                            <a href="https://wa.me/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="col linksContacto">
+                        <div class="text-center">
+                            <a href="https://www.instagram.com/gaostudiophoto" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col linksContacto">
+                        <div class="text-center">
+                            <a href="https://www.tiktok.com/@gaostudiophoto" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                    <div class="col linksContacto">
+                        <div class="text-center">
+                            <a href="https://www.facebook.com/gaostudiophoto" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                    <div class="col linksContacto">
+                        <div class="text-center">
+                            <a href="mailto:" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" id="prices">
+                <div class="row mt-5">
+                    <div class="col"></div>
+                    <div class="col text-center"><h2>Precios</h2></div>
+                    <div class="col"></div>
+                </div>
+                <div class="row mt-5">
                     <div class="col"></div>
                     <div class="col"></div>
                     <div class="col"></div>
