@@ -22,13 +22,8 @@ window.addEventListener('scroll', function() {
             $('.slideIntro')[i].style.setProperty('filter', 'grayscale(0%)','important');
         }*/
         
-        if(window.scrollY>=$(window).height()*0.60){
-            $(".fotogaostudio").fadeIn(1000);
-            $(".presentacion").fadeIn(2000);
-            $(".presentacion2").fadeIn(2500);
-
-        }
-
+        document.getElementsByClassName("presentacion").innerHTML = window.scrollY;
+        document.getElementsByClassName("presentacion2").innerHTML = screen.width;
         
     }
     else{
@@ -54,8 +49,47 @@ window.addEventListener('scroll', function() {
             $('.slideIntro')[i].style.setProperty('filter', 'grayscale(100%)','important');
         }*/
 
-        $(".fotogaostudio").fadeOut();
-        $(".presentacion").fadeOut();
-        $(".presentacion2").fadeOut();
     }
 });
+
+$.ajax("navidad.html", {
+    success: function(response) {
+      $(".modalNavidades").html(response);
+    }
+  }); 
+
+  $.ajax("actoral.html", {
+    success: function(response) {
+      $(".modalActoral").html(response);
+    }
+  }); 
+
+  $.ajax("cumple.html", {
+    success: function(response) {
+      $(".modalCumpleanos").html(response);
+    }
+  }); 
+
+  $.ajax("profesional.html", {
+    success: function(response) {
+      $(".modalPerfilPro").html(response);
+    }
+  }); 
+
+  $.ajax("personal.html", {
+    success: function(response) {
+      $(".modalMarcaPers").html(response);
+    }
+  }); 
+
+  $.ajax("empresa.html", {
+    success: function(response) {
+      $(".modalCorporativo").html(response);
+    }
+  }); 
+
+  $.ajax("diamadre.html", {
+    success: function(response) {
+      $(".modalDiaMadre").html(response);
+    }
+  }); 

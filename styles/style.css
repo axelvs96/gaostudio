@@ -11,8 +11,11 @@ body{
   height: 100%;
 }
 
+#sobremi, #contact, #sesiones{
+  padding-top: 10vh !important;
+}
 
-#sobremi, #contact, #prices{
+#prices{
   height: 100vh !important;
   padding-top: 10vh !important;
 }
@@ -57,7 +60,6 @@ body{
 
 .fotogaostudio{
   height: 90vh;
-  display: none;
 }
 
 .texto-presentacion{
@@ -66,8 +68,8 @@ body{
 
 .presentacion, .presentacion2{
   padding-left: 5vw !important;
+  padding-right: 5vw !important;
   padding-top: 3vh !important;
-  display: none;
 }
 
 
@@ -143,7 +145,7 @@ i{
   content: url("/gaostudio/images/navidad/horizontal/5.jpg");
 }
 
-/* CUMPLEAÑOS*/
+/* CUMPLEAÑOS */
 .cumple .carousel-item:nth-child(1) {
   content: url("/gaostudio/images/fotos-de-cumpleanos/horizontal/1.jpg");
 }
@@ -161,7 +163,7 @@ i{
 }
 
 
-/* ACTORAL*/
+/* ACTORAL */
 .actoral .carousel-item:nth-child(1) {
   content: url("/gaostudio/images/book-actoral/horizontal/1.jpg");
 }
@@ -179,7 +181,7 @@ i{
 }
 
 
-/* PROFESIONAL*/
+/* PROFESIONAL */
 .profesional .carousel-item:nth-child(1) {
   content: url("/gaostudio/images/perfil-profesional/horizontal/1.JPG");
 }
@@ -197,7 +199,7 @@ i{
 }
 
 
-/* PERSONAL*/
+/* PERSONAL */
 .personal .carousel-item:nth-child(1) {
   content: url("/gaostudio/images/marca-personal/horizontal/1.jpg");
 }
@@ -213,6 +215,43 @@ i{
 .personal .carousel-item:nth-child(5) {
   content: url("/gaostudio/images/marca-personal/horizontal/5.png");
 }
+
+
+/* EMPRESA */
+.empresa .carousel-item:nth-child(1) {
+  content: url("/gaostudio/images/retrato-corporativo/horizontal/1.jpg");
+}
+.empresa .carousel-item:nth-child(2) {
+  content: url("/gaostudio/images/retrato-corporativo/horizontal/2.jpg");
+}
+.empresa .carousel-item:nth-child(3) {
+  content: url("/gaostudio/images/retrato-corporativo/horizontal/3.jpg");
+}
+.empresa .carousel-item:nth-child(4) {
+  content: url("/gaostudio/images/retrato-corporativo/horizontal/4.jpg");
+}
+.empresa .carousel-item:nth-child(5) {
+  content: url("/gaostudio/images/retrato-corporativo/horizontal/5.jpg");
+}
+
+
+/* DIA DE LA MADRE */
+.madre .carousel-item:nth-child(1) {
+  content: url("/gaostudio/images/dia-de-la-madre/horizontal/1.jpg");
+}
+.madre .carousel-item:nth-child(2) {
+  content: url("/gaostudio/images/dia-de-la-madre/horizontal/2.jpg");
+}
+.madre .carousel-item:nth-child(3) {
+  content: url("/gaostudio/images/dia-de-la-madre/horizontal/3.jpg");
+}
+.madre .carousel-item:nth-child(4) {
+  content: url("/gaostudio/images/dia-de-la-madre/horizontal/4.jpg");
+}
+.madre .carousel-item:nth-child(5) {
+  content: url("/gaostudio/images/dia-de-la-madre/horizontal/5.jpg");
+}
+
 
 
  /* PRESENTACION */
@@ -265,6 +304,29 @@ i{
     animation-timing-function:ease;
   }
  }
+
+
+ #carouselExampleControls{
+  height: 100vh !important;
+ }
+
+.imagenCarousel{
+  height: 80vh !important;
+}
+
+
+
+
+footer{
+  background-color: #000000 !important;
+  height: 10vh !important;
+  margin-top: 10vh !important;
+}
+footer>div{
+  color: #ffffff !important;
+}
+
+
 
 
  @media (max-width: 991.98px) {
@@ -326,7 +388,6 @@ i{
   }
 
   #sobremi{
-    height: 100vh !important;
     padding-top: 6.5vh !important;
   }
   #sesiones{
@@ -340,13 +401,12 @@ i{
 
   .fotogaostudio{
     height: 60vh;
-    display: none;
   }
 
   .presentacion, .presentacion2{
     padding-left: 5vw !important;
+    padding-right: 5vw !important;
     padding-top: 3vh !important;
-    display: none;
   }
 
 
